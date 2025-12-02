@@ -1,0 +1,55 @@
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /*adjusts the text up or down of the image*/
+    padding-top: 50px;
+}
+
+.about p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 10px;
+}
+
+.about h2 {
+    text-align: center;
+    color: olive;
+    font-weight: 600;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-image img {
+    width: 50%;
+    border-radius: 10px;
+    /* Curved radius for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content p {
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .text-image {
+        flex-direction: column;
+    }
+    .text-image img {
+        width: 100%;
+    }
+}

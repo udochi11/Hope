@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HITJ Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            /*space between the gallery image section and next section*/
+            margin-bottom: 20px;
+        }
+        
+        .gallery-item {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .description {
+            padding: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="Images/hopelogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">DONATION</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Scholarship.html">WHAT WE DO</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1> Gallery</h1>
+            <p>Empowering Lives, Transforming Communities, Together we can nurture hope.</p>
+            <a href="#volunteer-section" class="txt-button">Join Us</a>
+            <a href="" class="txt-button">Donate</a>
+        </div>
+    </section>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Images/presentation.jpg" alt="Scholar receiving award">
+            <div class="description">A young scholar proudly receiving their scholarship award at our annual ceremony, symbolizing hope and opportunity.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0061.jpg" alt="Group study session">
+            <div class="description">Students from diverse backgrounds engaging in a group study session funded by Hope In The Jungle scholarship Scheme.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0009.jpg" alt="Community outreach">
+            <div class="description">Our team conducting community outreach to identify deserving candidates for scholarships in rural areas.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA00010.jpg" alt="Graduation event">
+            <div class="description">A joyful graduation event where scholarship recipients celebrate their achievements and future prospects.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0058.jpg" alt="Mentorship program">
+            <div class="description">Mentors guiding scholarship students through career workshops and personal development sessions.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0054.jpg" alt="Library resources">
+            <div class="description">Access to well-stocked libraries provided through our scholarship programs to enhance learning.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0053.jpg" alt="Field trip">
+            <div class="description">Educational field trips organized for scholars to gain real-world experience and inspiration.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/pick up dirt.jpg" alt="Volunteer work">
+            <div class="description">Scholarship recipients participating in volunteer work to give back to their communities.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0071.jpg" alt="Agricultural training">
+            <div class="description">Hope in the Jungle Initiative in collaboration with Hanceef International Limited @adanna_henri and @elibrada_ecocenter carried out a women’s outreach program focused on agricultural empowerment. Women farmers were trained on improved planting
+                methods and supported with cassava stems to boost their livelihoods. Together, we’re planting seeds of knowledge, growth, and hope. 🌱💚 Hands-on agricultural training sessions for Emohua Women farmers to prepare them for the farming season.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0055.jpg" alt="Art workshop">
+            <div class="description">Creative art workshops fostering expression and cultural appreciation among our scholars.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/afriend.jpg" alt="Sports event">
+            <div class="description">Inclusive sports events promoting teamwork and physical health for scholarship students.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/picking dirt.jpg" alt="Environmental project">
+            <div class="description">Scholars involved in environmental conservation projects as part of their holistic education.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0006.jpg" alt="Family support">
+            <div class="description">Supporting families of scholars through counseling and resources to ensure academic success.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0057.jpg" alt="Online learning">
+            <div class="description">Virtual classrooms enabling remote learning for scholars in underserved regions.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0055.jpg" alt="Cultural festival">
+            <div class="description">Celebrating cultural diversity through festivals organized by Hope In The Jungle and for our scholarship community.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0072.jpg" alt="Research lab">
+            <div class="description">Access to research labs where scholars conduct experiments and innovate solutions.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0033.jpg" alt="Music class">
+            <div class="description">Music and performing arts classes enriching the creative lives of our scholars.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0037.jpg" alt="Health checkup">
+            <div class="description">Regular health checkups and wellness programs for the well-being of scholarship recipients.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0046.jpg" alt="Entrepreneurship workshop">
+            <div class="description">Workshops on entrepreneurship empowering scholars to start their own ventures.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0047.jpg" alt="Book distribution">
+            <div class="description">Distributing educational books and materials to scholars in need.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0048.jpg" alt="Science fair">
+            <div class="description">Annual science fairs showcasing innovative projects by our talented scholars.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0050.jpg" alt="Language class">
+            <div class="description">Language immersion classes helping scholars communicate globally.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0051.jpg" alt="Cooking workshop">
+            <div class="description">Nutritional cooking workshops teaching healthy eating habits to scholars and families.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0052.jpg" alt="Debate club">
+            <div class="description">Debate clubs fostering critical thinking and public speaking skills.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0053.jpg" alt="Coding bootcamp">
+            <div class="description">Coding bootcamps preparing scholars for careers in technology and innovation.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0054.jpg" alt="Nature hike">
+            <div class="description">Educational nature hikes combining adventure with environmental education.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0057.jpg" alt="Art exhibition">
+            <div class="description">Art exhibitions displaying the creative works of our scholarship artists.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0061.jpg" alt="Career counseling">
+            <div class="description">One-on-one career counseling sessions guiding scholars toward fulfilling futures.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0060.jpg" alt="Dance performance">
+            <div class="description">Cultural dance performances celebrating heritage and building community bonds.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0071.jpg" alt="STEM project">
+            <div class="description">Hands-on STEM projects encouraging scientific curiosity and problem-solving.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0067.jpg" alt="Writing workshop">
+            <div class="description">Creative writing workshops honing literary skills and storytelling abilities.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0066.jpg" alt="Photography class">
+            <div class="description">Photography classes teaching visual storytelling and media literacy.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0064.jpg" alt="Robotics club">
+            <div class="description">Robotics clubs where scholars build and program robots for fun and learning.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0068.jpg" alt="Yoga session">
+            <div class="description">Mindfulness and yoga sessions promoting mental health and stress relief.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0070.jpg" alt="History tour">
+            <div class="description">Educational history tours connecting scholars with their cultural past.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG-20251019-WA0065.jpg" alt="Alumni reunion">
+            <div class="description">Alumni reunions where past scholars share success stories and inspire current recipients.</div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column logo-column">
+                <img src="images/hopelogo.png" alt="Hope in the Jungle Logo" class="footer-logo">
+            </div>
+            <div class="footer-column">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Scholarship.html">Services</a></li>
+                    <li><a href="Donation.html">Donation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <address>
+                    <p>Address: No 1, Ikeah close, Off Ikeah Avenue, Elibrada Rivers state, Nigeria.</p><br>
+                    <p><a href="contactus:08071427659">Phone: +234 807 142 7659</a></p><br>
+                    <p><a href="mailto:hopeinthejungle@gmail.com">Email: hopeinthejungle@gmail.com</a></p>
+                   
+                </address>
+            </div>
+
+
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Stay Updated on Our Latest Initiatives.</p><br>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+            </div>
+        </div>
+        <div>
+
+            <div class="social-icons">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/hopeinthejungle/"><img src="images/instagram.png" alt="Instagram" /></a>
+                <a href="https://www.linkedin.com/in/hopeinthejungleinitiative"><img src="images/twitter.png" alt="X" /></a>
+                <a href="https://facebook.com/Udochi Vincent"><img src="images/fb.png" alt="Facebook (2)" /></a>
+                <a href="https://facebook.com/Udochi Vincent"><img src="images/whatsapp.jpeg" alt="whatsapp" /></a>
+                <a href="mailto:hopeinthejungle@gmail.com"><img src="images/gmail icon.png" alt="Email" /></a>
+                <a href="https://www.youtube.com/UdVincent"><img src="images/youtube.png" alt="YouTube" /></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+            </p>
+        </div>
+
+    </footer>
+
+    <script>
+        //  responsiveness enhancement: Adjust grid on window resize
+        window.addEventListener('resize', function() {
+            const gallery = document.querySelector('.gallery');
+            if (window.innerWidth <= 480) {
+                gallery.style.gridTemplateColumns = '1fr';
+            } else if (window.innerWidth <= 768) {
+                gallery.style.gridTemplateColumns = 'repeat(auto-fill, minmax(250px, 1fr))';
+            } else {
+                gallery.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
+            }
+        });
+
+        // Initial check
+        window.dispatchEvent(new Event('resize'));
+    </script>
+</body>
+
+</html>
