@@ -5,78 +5,275 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Scholarship NGO</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hope In The Jungle</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <!-- Logo Section -->
-            <div class="logo">
-                <a href="#">
-                    <img src="img/logo.png" alt="Scholarship NGO Logo">
-                </a>
-            </div>
-
-            <!-- Navigation Menu -->
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Scholarships</a></li>
-                    <li><a href="#">Apply</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-
-            <!-- Call-to-Action Button -->
-            <div class="cta">
-                <a href="#" class="cta-btn">Donate</a>
+    <!--  <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="Images/logo.png" alt="">
+                </div>
             </div>
         </div>
-    </header>
-    <section>
-        <div>NKJIUOIJKLHUIHG</div>
-        <h1>Who We Are</h1>
+    </div>-->
+    <section class="header">
+
+        <nav>
+            <a href="home.html"><img src="Images/hopelogo.png">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <!--<button type="button" class="menu-close-btn"></button>
+                <i class="menu" id="menutoggle" onclick="hideMenu()">
+                    <span ></span>
+                    <span ></span>
+                    <span ></span>
+                </i>  <i class="fa fa-times" onclick="hideMenu()"></i>-->
+                <span class="close" onclick="closeModal()">&times;</span>
+
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">DONATION</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Scholarship.html">WHAT WE DO</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="menu-close-btn" onclick="showMenu()" &times;></i>-->
+        </nav>
+        <div class="text-box">
+            <h1>Hope In The Jungle Initiative</h1>
+            <p>Empowering Lives, Transforming Communities, Together we can nurture hope.</p>
+            <a href="#volunteer-section" class="txt-button">Join Us</a>
+            <a href="" class="txt-button">Donate</a>
+        </div>
+    </section>
+    <section class="about">
+        <h1>About Us</h1>
         <p>Hope in the Jungle Initiative (HITJI) is a Non-profit Organization Dedicated to Empowering and nurturing Hope in Children, Youth, and Women from Crime-prone and underserved Communities. Despite growing up amidst Poverty, violence, crime and other
             Forms of Adversity, have shown Remarkable Resilience and strength. We aim to provide Opportunities for these Vulnerable Individuals through, Educational support, Training, Capacity-building, and Community Development, thereby fostering resilience,
             Academic Excellence, Peaceful Coexistence and sustainable Futures through Collective Action and support from individuals, Organizations, and Corporations.
-            <br> <br> Hope in the Jungle Initiative (HITJI) works in Troubled Communities Plagued by Heavy Presence of Cult War, Militancy, Agitation and Other Forms of Crime as a Result of Long-term Neglect of the People and the devastating effect of
-            Oil Pollution. It provides Tangible Opportunities for these Vulnerable Individuals, Fostering Resilience, Capacity Building, and peaceful coexistence. <br> The Organization HITJI is a deliberate Action Platform, focused on addressing the critical
-            Physical, social and Environmental Challenges Facing Children, Youths, and Women in most Niger Delta Communities. The initiative Addresses several aligned Sustainable Development Goals (SDGs), of SDG 1: No Poverty; SDG 4: Quality Education;
-            SDG 10: Reduced Inequalities; SDG 16: Peace, Justice, and Strong Institutions. We Believe that Every One deserves the Chance to Thrive and Build a positive future.<br>Hope in the jungle Initiative, is incorporate Affairs Commission (CAC).
-
-        </p>
-        <h3>OBJECTIVES</h3>
+            <div class="row">
+                <div class="about-col">
+                    <h3>Mission</h3>
+                    <p>To transform the lives of children, youths and women in crime-prone areas through targeted interventions, educational support, and capacity-building programs that promote peace, development, and social justice.</p>
+                </div>
+                <div class="about-col">
+                    <h3>Vision</h3>
+                    <p>To nurture hope and empower children, youths and women in troubled and underserved communities, enabling them to break free from cycles of crime, poverty and adversity.</p>
+                </div>
+                <div class="about-col">
+                    <h3>Philosophical Thrust</h3>
+                    <p>To use intentional, strategic, and best available approach and resources to discover men and women with great potentials that requires support for optimal development, and usefulness to humanity.</p>
+                </div>
+            </div>
 
     </section>
+    <section class="gallery">
+
+        <div class="row">
+            <div class="gallery-col">
+                <img src="Image/IMG-20251019-WA0052.jpg">
+                <div class="glayer">
+                    <h3>emohua</h3>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="Image/IMG-20251019-WA0057.jpg">
+                <div class="glayer">
+                    <h3>Emohua</h3>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="Image/IMG-20251019-WA0058.jpg">
+                <div class="glayer">
+                    <h3>Army</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="gallery-col">
+                <img src="Image/IMG-20251019-WA0010.jpg">
+                <div class="glayer">
+                    <h3>emohua</h3>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="Image/IMG-20251019-WA0011.jpg">
+                <div class="glayer">
+                    <h3>picking dirt</h3>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="Image/IMG-20251019-WA0019.jpg">
+                <div class="glayer">
+                    <h3>Army</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SERVICES-->
+    <section class="service">
+        <h1>What We Do</h1>
+        <p>We offer a range of services including scholarship awards, mentorship programs, educational workshops, and community outreach. Our initiatives focus on holistic development, providing not just financial aid but also skills training, career counseling,
+            and access to resources that empower students to succeed academically and professionally.</p>
+        <div class="row">
+            <div class="service-col">
+                <img src="Images/mortarboard.png">
+                <h3>Scholarship/Educational Support</h3>
+                <p>A core Initiative of our Organization</p>
+            </div>
+            <div class="service-col">
+                <img src="Images/core-values.jpg">
+                <h3>Community Development</h3>
+                <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+            </div>
+            <div class="service-col">
+                <img src="Images/capacity-building.jpg">
+                <h3>Capacity Building</h3>
+                <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+            </div>
+        </div>
+    </section>
+    <!----testimonial-->
+    <section class="testimonial">
+        <h1>Testimonial</h1>
+        <p>Lorem ipsum dolor sit amet consect<br>etur adipisicing elit. Quas accusamus consequatur sunt neque cupiditate nesciunt laudantium <br>optio ratione ullam dolor quod, quaerat sit rem corrupti<br> fugit aut soluta eligendi possimus?</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="Images/capacity-building.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                    <h3>Desire Chimezunem Obisike </h3>
+
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="Images/nigeria.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                    <h3>Esther Adanne Okara</h3>
+                </div>
+            </div>
+            <!-- -->
+            <div class="testimonial-col">
+                <img src="Images/NIGERIA_police-logo.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                    <h3>Ogbondah Endurance Obilor </h3>
+                </div>
+            </div>
+        </div>
+        <!--  later
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="Images/pics.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                    <h3>Andrew emeka</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="Images/presentation.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                    <h3>sani</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="Images/ndlea-1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                    <h3>fuba ren</h3>
+                </div>
+            </div>
+        </div>-->
+    </section>
+
+
+    <section id="volunteer-section" class="volunteer-section">
+        <!-- Left Section -->
+        <div class="volunteer-left">
+            <h2>Make a Difference</h2>
+            <p>
+                Join us in creating a better world! <br>Support our mission and make a real impact in the community.
+            </p>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="volunteer-middle">
+            <img src="Images/Volunteer logos.jpg" alt="Volunteer Image">
+        </div>
+
+        <!-- Right Section (Sign-Up Form) -->
+        <div class="volunteer-right">
+            <h3> Join Us</h3>
+            <form id="volunteer-form" action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="interest">Interest Area:</label>
+                <select id="interest" name="interest">
+          <option value="training">Training</option>
+          <option value="event">Outreach</option>
+          <option value="fundraising">Fundraising</option>
+          <option value="partner">Partner</option>
+         <option value="event"> <a  href="#Scholar">Sponsor</a></option>
+          <option value="Volunteer">Volunteer</option>
+          <option value="other">Others</option>
+        </select>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Apply for our various scholarship program </h1>
+        <a href="Contact.html" class="txt-button">CONTACT US</a>
+    </section>
+    <!--PARTNERS-->
+    <section class="spons">
+        <h1>Sponsor/Partners</h1>
+        <marquee>Elibrada Ecocenter HANCEFF INTERNATIONAL
+        </marquee>
+    </section>
+    <!-- Footer -->
     <footer>
         <div class="footer-container">
             <div class="footer-column logo-column">
-                <img src="img/logo.png" alt="Hope in the Jungle Logo" class="footer-logo">
+                <img src="images/hopelogo.png" alt="Hope in the Jungle Logo" class="footer-logo">
             </div>
             <div class="footer-column">
                 <h3>Important Links</h3>
                 <ul>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                    <li><a href="/gallery.html">Gallery</a></li>
-                    <li><a href="/services.html">Services</a></li>
-                    <li><a href="/donation.html">Donation</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Scholarship.html">Services</a></li>
+                    <li><a href="Donation.html">Donation</a></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3>Contact Info</h3>
-                <address>
-                    <p>Address: Elibrada Emohua, EMOLGA.</p><br>
-                    <p><a href="contactus:08071427659">Phone: +234 807 142 7659</a></p><br>
-                    <p><a href="mailto:hopeinthejungle@gmail.com">Email: hopeinthejungle@gmail.com</a></p>
-                   
-                </address>
+                <address> 
+                        <p>Address: No 1, Ikeah close, Off Ikeah Avenue, Elibrada Emohua, EMOLGA Rivers state, Nigeria.</p><br>
+                        <p><a href="contactus:08071427659">Phone: +234 807 142 7659</a></p><br>
+                        <p><a href="mailto:hopeinthejungle@gmail.com">Email: hopeinthejungle@gmail.com</a></p>
+                       
+                    </address>
             </div>
 
 
@@ -90,29 +287,44 @@
 
             </div>
         </div>
+        <div>
 
-        <div class="footer-bottom">
             <div class="social-icons">
-                <a href="https://www.instagram.com/hopeinthejungle/"><img src="img/instagram.png" alt="Instagram" /></a>
-                <a href="https://www.linkedin.com/in/hopeinthejungleinitiative"><img src="img/twitter (2).png" alt="X" /></a>
-                <a href="https://facebook.com/Udochi Vincent"><img src="img/fb (2).png" alt="Facebook" /></a>
-                <a href="mailto:hopeinthejungle@gmail.com"><img src="img/email (2).png" alt="Email" /></a>
-                <a href="https://www.youtube.com/UdVincent"><img src="img/youtube.png" alt="YouTube" /></a>
-                <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script> All rights reserved
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </p>
-
-
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/hopeinthejungle/"><img src="images/instagram.png" alt="Instagram" /></a>
+                <a href="https://www.linkedin.com/in/hopeinthejungleinitiative"><img src="images/twitter.png" alt="X" /></a>
+                <a href="https://facebook.com/Udochi Vincent"><img src="images/fb.png" alt="Facebook (2)" /></a>
+                <a href="https://facebook.com/Udochi Vincent"><img src="images/whatsapp.jpeg" alt="whatsapp" /></a>
+                <a href="mailto:hopeinthejungle@gmail.com"><img src="images/gmail icon.png" alt="Email" /></a>
+                <a href="https://www.youtube.com/UdVincent"><img src="images/youtube.png" alt="YouTube" /></a>
             </div>
         </div>
+        <div class="footer-bottom">
+            <p>
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+            </p>
+        </div>
+
+
+
     </footer>
+    <!---- JavaScript for toggle menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
 
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
 
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
+
+</html>
 
 </html>
