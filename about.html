@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HITJ About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="Images/hopelogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!--<button type="button" class="menu-close-btn"></button>
+                <i class="menu" id="menutoggle" onclick="hideMenu()">
+                    <span ></span>
+                    <span ></span>
+                    <span ></span>
+
+                </i>-->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">DONATION</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Scholarship.html">WHAT WE DO</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="menu-close-btn" onclick="showMenu()" &times;></i>-->
+        </nav>
+        <div class="text-box">
+            <h1> About Us</h1>
+            <p>Empowering Lives, Transforming Communities, Together we can nurture hope.</p>
+            <a href="#volunteer-section" class="txt-button">Join Us</a>
+            <a href="" class="txt-button">Donate</a>
+        </div>
+    </section>
+    <section class="about">
+        <div>
+            <h2>
+                About Us
+            </h2>
+            <div class="text-image">
+                <div class="text-content">
+                    <p>Hope in the Jungle Initiative (HITJI) is a Non-profit Organization Dedicated to Empowering and nurturing Hope in Children, Youth, and Women from Crime-prone and underserved Communities. Despite growing up amidst Poverty, violence,
+                        crime and other Forms of Adversity, have shown Remarkable Resilience and strength. We aim to provide Opportunities for these Vulnerable Individuals through, Educational support, Training, Capacity-building, and Community Development,
+                        thereby fostering resilience, Academic Excellence, Peaceful Coexistence and sustainable Futures through Collective Action and support from individuals, Organizations, and Corporations.
+
+                        <br> <br> Hope in the Jungle Initiative (HITJI) works in Troubled Communities Plagued by Heavy Presence of Cult War, Militancy, Agitation and Other Forms of Crime as a Result of Long-term Neglect of the People and the devastating
+                        effect of Oil Pollution. It provides Tangible Opportunities for these Vulnerable Individuals, Fostering Resilience, Capacity Building, and peaceful coexistence. <br> The Organization HITJI is a deliberate Action Platform, focused
+                        on addressing the critical Physical, social and Environmental Challenges Facing Children, Youths, and Women in most Niger Delta Communities. The initiative Addresses several aligned Sustainable Development Goals (SDGs), of SDG
+                        1: No Poverty; SDG 4: Quality Education; SDG 10: Reduced Inequalities; SDG 16: Peace, Justice, and Strong Institutions. We Believe that Every One deserves the Chance to Thrive and Build a positive future.<br>Hope in the jungle
+                        Initiative, is incorporate Affairs Commission (CAC).
+
+                    </p>
+
+                </div>
+                <img src="images/capacity-building.jpg" alt=" Who We Are Image ">
+            </div>
+
+        </div>
+    </section>
+    <section class="service ">
+        <h1>Our Service</h1>
+        <p>We offer a range of services including scholarship awards, mentorship programs, educational workshops, and community outreach. Our initiatives focus on holistic development, providing not just financial aid but also skills training, career counseling,
+            and access to resources that empower students to succeed academically and professionally.</p>
+        <div class="row ">
+            <div class="service-col ">
+                <img src="Images/capacity-building.jpg ">
+                <h3>Capacity Building</h3>
+                <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+            </div>
+            <div class="service-col ">
+                <img src="Images/core-values.jpg ">
+                <h3>Community Development</h3>
+                <p>Our initiatives focus on holistic development, providing not just financial aid but also skills training, career counseling, and access to resources that empower students to succeed academically and professionally.</p>
+            </div>
+            <div class="service-col ">
+                <img src="Images/mortarboard.png ">
+                <h3>Educational Support/Training</h3>
+                <p>We offer a range of services including scholarship awards, mentorship programs, educational workshops and community outreach. </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="board">
+        <h2 style="   font-size: 40px; text-align: center;">Board of Trustees</h2>
+        <div class="board">
+            <div class="trustee" onclick="flipCard(this)">
+                <div class="trustee-front">
+                    <img src="https://picsum.photos/100/100?random=21" alt="Trustee 1">
+                    <h3>Prof. I. F Vincent-Akpu</h3>
+                    <p>Founder/Ceo</p>
+                    <p>More</p>
+                </div>
+                <div class="trustee-back">
+                    <h3>Prof (Mrs) I. F Vincent-Akpu</h3>
+                    <p>Renowned educator with 20+ years in hydro-biology. Passionate about equitable education.</p>
+                    <button onclick="openModal('Prof (Mrs) I. F Vincent-Akpu', 'Founder/Ceo', 'Renowned educator with 20+ years in hydro-biology. Passionate about equitable education.', 'https://picsum.photos/100/100?random=21')">View Full Bio</button>
+                </div>
+            </div>
+            <div class="trustee" onclick="flipCard(this)">
+                <div class="trustee-front">
+                    <img src="https://picsum.photos/100/100?random=22" alt="Trustee 2">
+                    <h3>Barr. Chiseme Vincent-Akpu</h3>
+                    <p>Co-Founder</p>
+                    <p>More</p>
+                </div>
+                <div class="trustee-back">
+                    <h3>Barr. Chiseme Vincent-Akpu</h3>
+                    <p>Legal Research expert.</p>
+                    <button onclick="openModal('Barr. Chiseme Vincent-Akpu', 'Co-Founder', 'Legal Adviser focused on youth empowerment initiatives.', 'https://picsum.photos/100/100?random=22')">View Full Bio</button>
+                </div>
+            </div>
+            <div class="trustee" onclick="flipCard(this)">
+                <div class="trustee-front">
+                    <img src="https://picsum.photos/100/100?random=23" alt="Trustee 3">
+                    <h3>Barr (Mrs) Letina Akpu</h3>
+                    <p>Secretary</p>
+                    <p>More</p>
+                </div>
+                <div class="trustee-back">
+                    <h3>Barr (Mrs) Letina Akpu</h3>
+                    <p>Legal Adviser.</p>
+                    <button onclick="openModal('Barr (Mrs) Letina Akpu', 'Secretary', 'Legal research expert specializing in non-profit governance.', 'https://picsum.photos/100/100?random=23')">View Full Bio</button>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <div class="trustee" onclick="flipCard(this)">
+                <div class="trustee-front">
+                    <img src="https://picsum.photos/100/100?random=24" alt="Trustee 4">
+                    <h3>Prof. Vincent Weli</h3>
+                    <p>Advisory Board Member</p>
+                    <p>More</p>
+                </div>
+                <div class="trustee-back">
+                    <h3>Prof. Vincent Weli</h3>
+                    <p>Economist with experience in international development.</p>
+                    <button onclick="openModal('Prof. Vincent Weli', 'Advisory Board Member', 'Economist with experience in international development.', 'https://picsum.photos/100/100?random=24')">View Full Bio</button>
+                </div>
+            </div>
+            <div class="trustee" onclick="flipCard(this)">
+                <div class="trustee-front">
+                    <img src="https://picsum.photos/100/100?random=25" alt="Trustee 5">
+                    <h3>Ms. Vincent-Akpu</h3>
+                    <p>Advisory Board Member</p>
+                    <p>More</p>
+                </div>
+                <div class="trustee-back">
+                    <h3>Ms. Vincent-Akpu</h3>
+                    <p>Community leader advocating for educational equity.</p>
+                    <button onclick="openModal('Ms. Maria Gonzalez', 'Advisory Board Member', 'Community leader advocating for educational equity.', 'https://picsum.photos/100/100?random=25')">View Full Bio</button>
+                </div>
+            </div>
+            <div class="trustee" onclick="flipCard(this)">
+                <div class="trustee-front">
+                    <img src="https://picsum.photos/100/100?random=25" alt="Trustee 5">
+                    <h3>Ms. Vincent-Akpu</h3>
+                    <p>Member</p>
+                    <p>More</p>
+                </div>
+                <div class="trustee-back">
+                    <h3>Ms. Vincent-Akpu</h3>
+                    <p>Community leader advocating for educational equity.</p>
+                    <button onclick="openModal('Ms. Maria Gonzalez', 'Member', 'Community leader advocating for educational equity.', 'https://picsum.photos/100/100?random=25')">View Full Bio</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div id="trusteeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImg" src="" alt="Trustee">
+            <h3 id="modalName"></h3>
+            <p id="modalRole"></p>
+            <p id="modalBio"></p>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+
+        function openModal(name, role, bio, imgSrc) {
+            document.getElementById('modalName').textContent = name;
+            document.getElementById('modalRole').textContent = role;
+            document.getElementById('modalBio').textContent = bio;
+            document.getElementById('modalImg').src = imgSrc;
+            document.getElementById('trusteeModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('trusteeModal').style.display = 'none';
+        }
+
+        // Close modal on outside click
+        window.onclick = function(event) {
+            const modal = document.getElementById('trusteeModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+
+
+    <section>
+        <div>
+            <h2> Past Project</h2>
+        </div>
+    </section>
+    <section>
+        <div>Future Project</div>
+    </section>
+    <section>
+        <div>
+            <h2>Join Our Mission</h2>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column logo-column">
+                <img src="images/hopelogo.png" alt="Hope in the Jungle Logo" class="footer-logo">
+            </div>
+            <div class="footer-column">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Scholarship.html">Services</a></li>
+                    <li><a href="Donation.html">Donation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <address>
+                        <p>Address: No 1, Ikeah close, Off Ikeah Avenue, Elibrada Rivers state, Nigeria.</p><br>
+                        <p><a href="contactus:08071427659">Phone: +234 807 142 7659</a></p><br>
+                        <p><a href="mailto:hopeinthejungle@gmail.com">Email: hopeinthejungle@gmail.com</a></p>
+                       
+                    </address>
+            </div>
+
+
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Stay Updated on Our Latest Initiatives.</p><br>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+            </div>
+        </div>
+        <div>
+
+            <div class="social-icons">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/hopeinthejungle/"><img src="images/instagram.png" alt="Instagram" /></a>
+                <a href="https://www.linkedin.com/in/hopeinthejungleinitiative"><img src="images/twitter.png" alt="X" /></a>
+                <a href="https://facebook.com/Udochi Vincent"><img src="images/fb.png" alt="Facebook (2)" /></a>
+                <a href="https://facebook.com/Udochi Vincent"><img src="images/whatsapp.jpeg" alt="whatsapp" /></a>
+                <a href="mailto:hopeinthejungle@gmail.com"><img src="images/gmail icon.png" alt="Email" /></a>
+                <a href="https://www.youtube.com/UdVincent"><img src="images/youtube.png" alt="YouTube" /></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+            </p>
+        </div>
+
+    </footer>
+
+
+
+    <!-- <section class="trustee ">
+        <div>
+            <h2>Board Of Trustee</h2>
+            <div class="row ">
+                <div class="trustee-col ">
+                    <img src="Images/capacity-building.jpg ">
+                    <h3>CHINO</h3>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                </div>
+                <div class="trustee-col ">
+                    <img src="Images/chinogozim.png ">
+                    <h3>Chinogozim Vincent-Akpu</h3>
+                    <p>Secretary<br>Agri-Entreprenuer</p>
+                </div>
+                <div class="trustee-col ">
+                    <img src="Images/effcc.jpg ">
+                    <h3>TRINA</h3>
+                    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Vel commodi nihil,<br> eum consequuntur esse laboriosam facilis dolorum deleniti aut. Consequatur temporibus, qui minima atque omnis nam alias beatae dolor suscipit!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section aria-label="newest photo ">
+        <div class="carousel ">
+            <button class="carousel button previous ">-//-</button>
+            <button class="carousel button next ">-\\-</button>
+
+            <ul>
+                <li class="slide " data-active=" ">
+                    <img src="Images/conference.jpg " alt="image ">
+                </li>
+                <li class="slide ">
+                    <img src="Images/picking dirt.jpg " alt="image ">
+                </li>
+                <li class="slide ">
+                    <img src="Images/presentation.jpg " alt="image ">
+                </li>
+            </ul>
+
+        </div>
+    </section>-->
+</body>
+
+</html>
