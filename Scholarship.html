@@ -12,19 +12,19 @@
 </head>
 
 <body>
-    <section class="header">
+    <header>
         <nav>
-            <a href="index.html"><img src="Images/hopelogo.png" alt="Hope In The Jungle logo">
+            <a href="index.html"><img src="./Images/hopelogo.png" alt="Hope In The Jungle logo">
             </a>
             <div class="nav-links" id="navLinks">
-                <!--<i class="menu" id="menutoggle" onclick="hideMenu()">
+                <!--<button type="button" class="menu-close-btn"></button>
+                <i class="menu" id="menutoggle" onclick="hideMenu()">
                     <span ></span>
                     <span ></span>
                     <span ></span>
-                    <i class="menu-close-btn" onclick="showMenu()" &times;></i>
+                </i>  <i class="fa fa-times" onclick="hideMenu()"></i>
+                <span class="close" onclick="closeModal()">&times;</span>-->
 
-                </i>-->
-                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -34,13 +34,18 @@
                     <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            <!--  <i class="fa fa-bars" onclick="showMenu()"></i>
+         <i class="menu-close-btn" onclick="showMenu()" &times;></i>-->
         </nav>
+    </header>
+
+    <section id="home" class="hero">
         <div class="text-box">
-            <h1>What We Do</h1>
+            <h1>WHAT WE DO</h1>
             <p>Empowering Lives, Transforming Communities, Together we can nurture hope.</p>
             <a href="#volunteer-section" class="txt-button">Join Us</a>
-            <a href="donate.html" class="txt-button">Donate</a>
+            <a href="" class="txt-button">Donate</a>
         </div>
     </section>
     <section class="sscheme">
@@ -239,6 +244,57 @@
         </div>
     </section>
 
+
+    <section id="volunteer-section" class="volunteer-section">
+        <!-- Left Section -->
+        <div class="volunteer-left">
+            <h2>Make a Difference</h2>
+            <p>
+                Join us in creating a better world! <br>Support our mission and make a real impact in the community.
+            </p>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="volunteer-middle">
+            <img src="Images/Volunteer logos.jpg" alt="Volunteer Image">
+        </div>
+
+        <!-- Right Section (Sign-Up Form) -->
+        <div class="volunteer-right">
+            <h3> Join Us</h3>
+            <form id="volunteer-form" action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="interest">Interest Area:</label>
+                <select id="interest" name="interest">
+                    <option value="training">Training</option>
+                    <option value="event">Outreach</option>
+                    <option value="fundraising">Fundraising</option>
+                    <option value="partner">Partner</option>
+                    <option value="event"> <a  href="#Scholar">Sponsor</a></option>
+                    <option value="Volunteer">Volunteer</option>
+                    <option value="other">Others</option>
+                </select>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Apply for our various scholarship program </h1>
+        <a href="Contact.html" class="txt-button">CONTACT US</a>
+    </section>
+    <!--PARTNERS-->
+    <section class="spons">
+        <h1>Sponsor/Partners</h1>
+        <marquee>Elibrada Ecocenter HANCEFF INTERNATIONAL
+        </marquee>
+    </section>
     <footer>
         <div class="footer-container">
             <div class="footer-column logo-column">

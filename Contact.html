@@ -13,10 +13,9 @@
 </head>
 
 <body>
-    <section class="header">
-
+    <header>
         <nav>
-            <a href="index.html"><img src="Images/hopelogo.png" alt="Hope In The Jungle logo">
+            <a href="index.html"><img src="./Images/hopelogo.png" alt="Hope In The Jungle logo">
             </a>
             <div class="nav-links" id="navLinks">
                 <!--<button type="button" class="menu-close-btn"></button>
@@ -24,10 +23,9 @@
                     <span ></span>
                     <span ></span>
                     <span ></span>
-                    <i class="menu-close-btn" onclick="showMenu()" &times;></i>
-        
-                </i>-->
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+                </i>  <i class="fa fa-times" onclick="hideMenu()"></i>
+                <span class="close" onclick="closeModal()">&times;</span>-->
+
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -37,11 +35,15 @@
                     <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
 
+            <!--  <i class="fa fa-bars" onclick="showMenu()"></i>
+         <i class="menu-close-btn" onclick="showMenu()" &times;></i>-->
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
         <div class="text-box">
-            <h1> Contact Us</h1>
+            <h1>CONTACT US</h1>
             <p>Empowering Lives, Transforming Communities, Together we can nurture hope.</p>
             <a href="#volunteer-section" class="txt-button">Join Us</a>
             <a href="" class="txt-button">Donate</a>
